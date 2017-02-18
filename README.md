@@ -1,17 +1,17 @@
 # manga-parser
 Parses strings of manga chapter titles returning key info
 
-The goal of the parser is to retrieve the manga chapter, any other info is secondary.
+A javascript utility for parsing chapter titles returning the chapter number.
 
 ## Examples
 
-- Ch.004.002
-- Ch.015-001
-- Vol.004 Ch.016: Attack 016
-- 001 - Genius and X are Two Sides of the Same Coin
-- Chapter 063
-- ch.096
-- File 987
-- Episode 036
-- Ep. 279 - Sympathy about air travel
-- 008.005
+| Title                                                         	| Parsed 	|
+|---------------------------------------------------------------	|--------	|
+| Ch.004.002                                                    	| 4.2    	|
+| Vol.004 Ch.016: Attack 016                                    	| 16     	|
+| 001 - Genius and X are Two Sides of the Same Coin             	| 1      	|
+| Chapter 063                                                   	| 63     	|
+| ch.096                                                        	| 96     	|
+| File 987                                                      	| 987    	|
+| Vol.015 Ch.060 (v002): The Man Who Lives by the Pond Part 002 	| 60     	|
+| 008.005                                                       	| 8.5    	|

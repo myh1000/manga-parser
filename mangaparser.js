@@ -18,7 +18,7 @@ function parse(string) {
             return parseFloat(result[0].replace(result[0].match(/\.+(\d+)/g), "." + (parseFloat(result[0].match(/\.+(\d+)/)[1]))));
         else
             return parseFloat(result[0]);
-            
+
     // if all else fails
     return 1;
 }
