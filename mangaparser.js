@@ -2,7 +2,7 @@
 mangaparser.js -- parses information from chapter titles
 */
 function parse(string) {
-    var result = string
+    var result
 
     if (result = string.match(/(\W+?)(chapter|chap|ch)\.*(\s*[\d\.]*)/i)) {
         if (parseFloat(result[3])) {
