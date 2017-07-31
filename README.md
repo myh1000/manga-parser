@@ -1,4 +1,4 @@
-# manga-parser
+# mangaparser
 Parses strings of manga chapter titles returning key info
 
 A javascript utility for parsing chapter titles returning the chapter number.
